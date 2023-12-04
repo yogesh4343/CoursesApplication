@@ -6,6 +6,7 @@ import RecommandedCourse from '../Components/RecommandedCourse'
 import { courseReducer } from '../Store/Slice/CoursesSlice'
 import Footer from '../Components/Footer'
 import RegisterNow from '../Components/RegisterNow'
+import Comments from '../Components/Comments'
 
 
 const Home = () => {
@@ -25,6 +26,8 @@ const Home = () => {
             <RecommandedCourse  />
 
             <RegisterNow />
+
+            <Comments />
 
             <Footer />
     </>

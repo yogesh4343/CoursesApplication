@@ -3,8 +3,12 @@ import React from 'react'
 import Buttons from "./Buttons/Buttons"
 import imageIcon from "../Images/lapt.jpeg"
 import { NavLink } from 'react-router-dom'
+import TypeWriter from './TypeWriter'
 
 const Banner = () => {
+
+  
+
   return (
     <div >
       <div className="container flex justify-between m-auto mt-8">
@@ -13,9 +17,12 @@ const Banner = () => {
             <div className="welcome text-5xl font-bold text-gray-800 flex flex-col xl:flex-row xl:text-5xl dark:text-white "> <span className="pr-3">Welcome To</span>  <span className="span text-purple-700 dark:text-purple-600"> Coder's App</span></div>
           </div>
 
-          <div className="lang text-xl font-bold text-gray-800   mt-3 md:text-3xl dark:text-white">
+
+         
+
+          <div className="lang  items-center text-2xl font-bold text-gray-800  flex justify-center gap-2 mt-3 md:text-3xl dark:text-white">
             Learn
-            <span className="text-purple-700 dark:text-purple-600 "> Python</span>
+            <span className="text-purple-700 dark:text-purple-600 ">  <TypeWriter /></span>
           </div>
 
           <div className="para text-sm  text-gray-800 md:text-xl dark:text-white my-7 ">
